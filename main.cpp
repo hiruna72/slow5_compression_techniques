@@ -86,8 +86,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-
-
+    slow5_rec_free(rec);
     slow5_close(sp);
     return 0;
 }
